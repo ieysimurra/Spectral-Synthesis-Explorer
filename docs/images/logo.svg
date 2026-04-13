@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00e5a0"/>
+      <stop offset="100%" style="stop-color:#00b8ff"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.6"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="url(#bg)"/>
+  <!-- Waveform icon -->
+  <path d="M 20 60 Q 30 25, 40 60 Q 50 95, 60 60 Q 70 25, 80 60 Q 90 95, 100 60"
+        fill="none" stroke="url(#wave)" stroke-width="5" stroke-linecap="round"/>
+  <!-- Spectrum bars -->
+  <rect x="28" y="78" width="6" height="22" rx="3" fill="white" opacity="0.5"/>
+  <rect x="40" y="72" width="6" height="28" rx="3" fill="white" opacity="0.6"/>
+  <rect x="52" y="82" width="6" height="18" rx="3" fill="white" opacity="0.4"/>
+  <rect x="64" y="76" width="6" height="24" rx="3" fill="white" opacity="0.55"/>
+  <rect x="76" y="85" width="6" height="15" rx="3" fill="white" opacity="0.35"/>
+  <rect x="88" y="88" width="6" height="12" rx="3" fill="white" opacity="0.25"/>
+</svg>
